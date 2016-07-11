@@ -1,0 +1,512 @@
+<cml tuio="false" simulator="false" rootContent="..\..\landscapes\content\LandscapesAssets" rootContentIsRelative="true">
+  
+  <Container id="Keyboard">
+    <Image src="14. Share Complete Screen\_keyboard frame.png" x="454" y="528"/>
+    
+    <Container id="sharedKeys">
+      
+      <Toggle id="SPECIAL" x="551" y="736" defaultStateId="off">
+        <Image id="off" src="14. Share Complete Screen\keyboard letter key_default.png">
+          <Text str="123" x="21" y="5" alignment="center" pointSizeF="14" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Image>
+        <Image id="on" src="14. Share Complete Screen\keyboard letter key_default.png">
+          <Text str="ABC" x="21" y="5" alignment="center" pointSizeF="14" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Image>
+      </Toggle>
+      
+      <Container id="nonSpecialKeys">
+        <Toggle id="SHIFT" x="492" y="677" defaultStateId="off">
+          <Image id="off" src="14. Share Complete Screen\keyboard caps lock_default.png"/>
+          <Image id="on" src="14. Share Complete Screen\keyboard caps lock_press state.png"/>
+        </Toggle>
+        
+        <Button id=".com" x="1023" y="736">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str=".com" x="21" y="5" alignment="center" pointSizeF="12" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>        
+      </Container>
+      
+      <Button id="DELETE" x="964" y="677">
+        <Image id="initial" src="14. Share Complete Screen\keyboard delete key_default.png"/>
+        <Image id="down" src="14. Share Complete Screen\keyboard delete key_press state.png"/>
+      </Button>
+      
+      <Button id="SPACE" x="611" y="736">
+        <Image id="initial" src="14. Share Complete Screen\keyboard space bar_default.png"/>
+        <Image id="down" src="14. Share Complete Screen\keyboard space bar_press state.png"/>
+        <Text str="SPACE" x="170" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+      </Button>
+    </Container>
+    
+    <Container id="keyboardCapKeys" visible="false">
+      <Container y="559">
+        <Button id="Q" x="492">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="Q" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="W" x="551">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="W" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="E" x="610">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="E" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="R" x="669">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="R" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="T" x="728">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="T" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="Y" x="787">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="Y" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="U" x="846">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="U" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="I" x="905">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="I" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="O" x="964">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="O" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="P" x="1023">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="P" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="618">
+        <Button id="A" x="522">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="A" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="S" x="581">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="S" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="D" x="640">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="D" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="F" x="699">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="F" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="G" x="758">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="G" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="H" x="817">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="H" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="J" x="876">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="J" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="K" x="935">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="K" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="L" x="994">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="L" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="677">
+        <Button id="Z" x="551">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="Z" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="X" x="610">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="X" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="C" x="669">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="C" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="V" x="728">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="V" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="B" x="787">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="B" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="N" x="846">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="N" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="M" x="905">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="M" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="736">
+        <Button id="@" x="492">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="@" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="." x="964">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="." x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>   
+      </Container>
+    </Container>
+    
+    <Container id="keyboardLowerKeys" visible="true">
+      <Container y="559">
+        <Button id="q" x="492">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="q" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="w" x="551">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="w" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="e" x="610">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="e" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="r" x="669">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="r" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="t" x="728">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="t" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="y" x="787">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="y" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="u" x="846">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="u" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="i" x="905">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="i" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="o" x="964">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="o" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="p" x="1023">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="p" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="618">
+        <Button id="a" x="522">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="a" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="s" x="581">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="s" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="d" x="640">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="d" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="f" x="699">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="f" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="g" x="758">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="g" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="h" x="817">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="h" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="j" x="876">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="j" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="k" x="935">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="k" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="l" x="994">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="l" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="677">
+        <Button id="z" x="551">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="z" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="x" x="610">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="x" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="c" x="669">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="c" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="v" x="728">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="v" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="b" x="787">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="b" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="n" x="846">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="n" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="m" x="905">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="m" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        
+      </Container>
+      
+      <Container y="736">
+        <Button id="@1" x="492">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="@" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id=".1" x="964">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="." x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+    </Container>
+  
+    <Container id="keyboardSpecialKeys" visible="false">
+      <Container y="559">
+        <Button id="1" x="492">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="1" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="2" x="551">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="2" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="3" x="610">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="3" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="4" x="669">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="4" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="5" x="728">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="5" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="6" x="787">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="6" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="7" x="846">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="7" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="8" x="905">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="8" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="9" x="964">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="9" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="0" x="1023">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="0" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="618">
+        <Button id="!" x="522">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="!" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="#" x="581">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="#" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="$" x="640">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="$" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="%" x="699">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="%" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="^" x="758">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="^" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="AND" x="817">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text id="ANDText" str="AND" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="*" x="876">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="*" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="{" x="935">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="{" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="}" x="994">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="}" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="677">
+        <Image src="14. Share Complete Screen\keyboard shift_default.png" x="492"/>
+        
+        <Button id="+" x="551">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="+" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="_" x="610">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="_" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="=" x="669">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="=" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="|" x="728">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="|" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="/" x="787">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="/" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="-" x="846">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="-" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="'" x="905">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="'" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+      </Container>
+      
+      <Container y="736">
+        <Button id="?" x="492">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="?" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="~" x="964">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="~" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>
+        <Button id="`" x="1023">
+          <Image id="initial" src="14. Share Complete Screen\keyboard letter key_default.png"/>
+          <Image id="down" src="14. Share Complete Screen\keyboard letter key_press state.png"/>
+          <Text str="`" x="21" y="0" alignment="center" pointSizeF="21" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+        </Button>  
+      </Container>
+    </Container>
+  </Container>
+</cml>

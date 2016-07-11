@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5dc77ea0-4318-4a17-a2f4-d9a90f833295}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ab02d4a2-3e28-4d8f-a677-fe4d0ee9e676}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Content Management">
+      <UniqueIdentifier>{8c1282b2-9045-4d95-95d5-25ec385af9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes">
+      <UniqueIdentifier>{3dde813b-9185-4061-b7ff-fdfe8f9cc80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\Screen Base Class">
+      <UniqueIdentifier>{e253d2d8-8136-43e1-80b9-63bcb0e49b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\Attractor">
+      <UniqueIdentifier>{9ab5bba0-ae23-4bca-ad23-1bd8837510e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\LandscapeSelector">
+      <UniqueIdentifier>{bdaa5b03-3464-4af3-91b7-6d5289866158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\Landscape Composer">
+      <UniqueIdentifier>{9ea46f21-82e5-4326-b543-2738e9153137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\Gallery">
+      <UniqueIdentifier>{3bd77215-d692-4272-95d8-40c2a4221d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\Gallery\Sharing">
+      <UniqueIdentifier>{4dede768-f2d0-4234-a6b2-3952eccbc56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\Utility">
+      <UniqueIdentifier>{e2b57ba3-e354-47ce-b695-e64dbdb5638d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscapes\Landscape Composer\Canvas">
+      <UniqueIdentifier>{5348e0c4-676c-40cb-a1cd-c55cb4d82568}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapesapplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapesmainscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapecontent.cpp">
+      <Filter>Content Management</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapecontentlisting.cpp">
+      <Filter>Content Management</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapescreen.cpp">
+      <Filter>Landscapes\Screen Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_attractor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapes.cpp">
+      <Filter>Landscapes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_attractor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapestate.cpp">
+      <Filter>Landscapes\Screen Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_landscapes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_landscapes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_landscapeselector.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_landscapeselector.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_landscapecomposer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_landscapecomposer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gallery.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_gallery.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="attractor.cpp">
+      <Filter>Landscapes\Attractor</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapeselector.cpp">
+      <Filter>Landscapes\LandscapeSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapeselectiondrawer.cpp">
+      <Filter>Landscapes\LandscapeSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_landscapeselectiondrawer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_landscapeselectiondrawer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="fullpreviewer.cpp">
+      <Filter>Landscapes\LandscapeSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fullpreviewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fullpreviewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapecomposer.cpp">
+      <Filter>Landscapes\Landscape Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="instructionsscreen.cpp">
+      <Filter>Landscapes\Landscape Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_instructionsscreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_instructionsscreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapedrawer.cpp">
+      <Filter>Landscapes\Landscape Composer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_landscapedrawer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_landscapecanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_landscapecanvas.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_landscapedrawer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_backtomainmenudialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_backtomainmenudialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gallery.cpp">
+      <Filter>Landscapes\Gallery</Filter>
+    </ClCompile>
+    <ClCompile Include="sharing.cpp">
+      <Filter>Landscapes\Gallery\Sharing</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sharing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sharing.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="backtomainmenudialog.cpp">
+      <Filter>Landscapes\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Landscapes\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_keyboard.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_keyboard.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="screenshottaker.cpp">
+      <Filter>Landscapes\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_screenshottaker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_screenshottaker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="landscape.cpp">
+      <Filter>Landscapes</Filter>
+    </ClCompile>
+    <ClCompile Include="paintingitem.cpp">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapecanvas.cpp">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapepaintitemsscene.cpp">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingbox.cpp">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_landscapepaintitemsscene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_landscapepaintitemsscene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_boundingbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_symbolismmenu.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_symbolismmenu.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="symbolismmenu.cpp">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_boundingbox.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="landscapetextcomposer.cpp">
+      <Filter>Content Management</Filter>
+    </ClCompile>
+    <ClCompile Include="originalpaintinginfo.cpp">
+      <Filter>Content Management</Filter>
+    </ClCompile>
+    <ClCompile Include="usagetracker.cpp">
+      <Filter>Landscapes\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="landscapesapplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="landscapesmainscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="landscapecontent.h">
+      <Filter>Content Management</Filter>
+    </ClInclude>
+    <ClInclude Include="landscapecontentlisting.h">
+      <Filter>Content Management</Filter>
+    </ClInclude>
+    <ClInclude Include="landscapescreen.h">
+      <Filter>Landscapes\Screen Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="landscapestate.h">
+      <Filter>Landscapes\Screen Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="landscape.h">
+      <Filter>Landscapes</Filter>
+    </ClInclude>
+    <ClInclude Include="paintingitem.h">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="landscapetextcomposer.h">
+      <Filter>Content Management</Filter>
+    </ClInclude>
+    <ClInclude Include="originalpaintinginfo.h">
+      <Filter>Content Management</Filter>
+    </ClInclude>
+    <ClInclude Include="usagetracker.h">
+      <Filter>Landscapes\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="landscapes.h">
+      <Filter>Landscapes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="attractor.h">
+      <Filter>Landscapes\Attractor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="landscapeselector.h">
+      <Filter>Landscapes\LandscapeSelector</Filter>
+    </CustomBuild>
+    <CustomBuild Include="landscapeselectiondrawer.h">
+      <Filter>Landscapes\LandscapeSelector</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fullpreviewer.h">
+      <Filter>Landscapes\LandscapeSelector</Filter>
+    </CustomBuild>
+    <CustomBuild Include="landscapecomposer.h">
+      <Filter>Landscapes\Landscape Composer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="instructionsscreen.h">
+      <Filter>Landscapes\Landscape Composer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="landscapedrawer.h">
+      <Filter>Landscapes\Landscape Composer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gallery.h">
+      <Filter>Landscapes\Gallery</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sharing.h">
+      <Filter>Landscapes\Gallery\Sharing</Filter>
+    </CustomBuild>
+    <CustomBuild Include="backtomainmenudialog.h">
+      <Filter>Landscapes\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="keyboard.h">
+      <Filter>Landscapes\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="screenshottaker.h">
+      <Filter>Landscapes\Utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="landscapecanvas.h">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="landscapepaintitemsscene.h">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="boundingbox.h">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="symbolismmenu.h">
+      <Filter>Landscapes\Landscape Composer\Canvas</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

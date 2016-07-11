@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config port="8080" maxRequests="20">
+  <tembooTumblr accountName="kyle-ideum"
+                appName="ideum-social"
+                appKey="C3iMrjphH2UNNDmyYbo802KYt2cXmKOE"
+                credential="IdeumSocialPost" />
+
+  <ideumEmail url="http://dev.gameplay.gestureworks.com/SendEmail.php"
+             credential="n5gXnF9qnqZFsZOWPTZJJw"
+             fileName="your_picture.jpg"/>
+
+</config>

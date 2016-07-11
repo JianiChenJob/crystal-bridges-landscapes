@@ -1,0 +1,412 @@
+<cml tuio="false" simulator="false" rootContent="..\..\landscapes\content\LandscapesAssets" rootContentIsRelative="true">
+  
+  <Container id="GalleryView" visible="true">
+    <Container id="gallery1">
+      <Image src="11. Title Choice Screen\Gallery Wall_Coastal Fog.png"/>
+      <Image id="galleryPainting" x="180" y="170" width="1064" height="500" src="6. Compose Landscape Screen_No Drawers Open\blank.png"/>
+      <Image src="11. Title Choice Screen\Frame 1.png"/>
+      <Image src="11. Title Choice Screen\Exhibit Title 1.png" x="1403" y="168"/>
+      <Image id="sharePaintingButton1" src="12. Gallery View\share-painting-btn.png" x="1403" y="708"/>
+      <Image id="backToPaintingButton1" src="12. Gallery View\back-to-painting-btn.png" x="1567" y="708"/>
+      <Image id="mainMenuPaintingButton1" src="12. Gallery View\main-menu-btn.png" x="1745" y="708"/>
+    </Container>
+    
+    <Container id="gallery2">
+      <Image src="11. Title Choice Screen\Gallery Wall_Galapagos Green.png"/>
+      <Image id="galleryPainting" x="216" y="160" width="1046" height="514" src="6. Compose Landscape Screen_No Drawers Open\blank.png"/>
+      <Image src="11. Title Choice Screen\Frame 2.png"/>
+      <Image src="11. Title Choice Screen\Exhibit Title 2.png" x="1397" y="168"/>
+      <Image id="sharePaintingButton2" src="12. Gallery View\share-painting-btn.png" x="1403" y="708"/>
+      <Image id="backToPaintingButton2" src="12. Gallery View\back-to-painting-btn.png" x="1567" y="708"/>
+      <Image id="mainMenuPaintingButton2" src="12. Gallery View\main-menu-btn.png" x="1745" y="708"/>
+    </Container>
+    
+    <Container id="gallery3">
+      <Image src="11. Title Choice Screen\Gallery Wall_Newborn's Eyes.png"/>
+      <Image id="galleryPainting" x="408" y="157" width="760" height="553" src="6. Compose Landscape Screen_No Drawers Open\blank.png"/>
+      <Image src="11. Title Choice Screen\Frame 3.png"/>
+      <Image src="11. Title Choice Screen\Exhibit Title 3.png" x="1352" y="168"/>
+      <Image id="sharePaintingButton3" src="12. Gallery View\share-painting-btn.png" x="1403" y="708"/>
+      <Image id="backToPaintingButton3" src="12. Gallery View\back-to-painting-btn.png" x="1567" y="708"/>
+      <Image id="mainMenuPaintingButton3" src="12. Gallery View\main-menu-btn.png" x="1745" y="708"/>
+    </Container>
+    
+    <Container id="gallery4">
+      <Image src="11. Title Choice Screen\Gallery Wall_Woodcliff Lake.png"/>
+      <Image id="galleryPainting" x="401" y="167" width="740" height="525" src="6. Compose Landscape Screen_No Drawers Open\blank.png"/>
+      <Image src="11. Title Choice Screen\Frame 4.png"/>
+      <Image src="11. Title Choice Screen\Exhibit Title 4.png" x="1313" y="168"/>
+      <Image id="sharePaintingButton4" src="12. Gallery View\share-painting-btn.png" x="1403" y="708"/>
+      <Image id="backToPaintingButton4" src="12. Gallery View\back-to-painting-btn.png" x="1567" y="708"/>
+      <Image id="mainMenuPaintingButton4" src="12. Gallery View\main-menu-btn.png" x="1745" y="708"/>
+    </Container>
+    
+    <Container id="dropdown" visible="false">
+      <Image id="dropDownBkg" src="11. Title Choice Screen\title-bkg.png" x="1403" y="319"/>
+      <Toggle id="dropDownArrow"  defaultStateId="off" x="1780" y="344">
+  	    <Image id="off" src="11. Title Choice Screen\title-arrow-selection-reg.png"/>
+  	    <Image id="on" src="11. Title Choice Screen\title-arrow-selection-click.png" />
+  	  </Toggle>
+
+      <Text id="dropDownText" str="LANDSCAPE" x="1435" y="353" pointSizeF="18" ttfRef="fonts\CooperHewitt-Heavy.otf" enabled="false"/>
+      
+      <Text id="date" str="NOVEMBER 2, 2015"  x="1435" y="421" pointSizeF="10" ttfRef="fonts\CooperHewitt-Medium.otf" enabled="false" color="#000000"/>
+    </Container>
+    
+    
+    <Text id="galleryText" str="[This landscape], which is reminiscent of [Hacienda La Serrano] by [Pio Casimiro Bacener], depicts [the resurrection of Christ] with its focus on the [palm tree]. Set in [1880]’s [Puerto Rico], the prominent [factory] [in the upper left] alludes to a time when Americans were [interested in industry].  Some may view this work as [focused on human ingenuity] due to the featuring of the [group of buildings], while others may interpret it as [humans controlling nature].  " 
+      x="1435" y="450" pointSizeF="13" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#555555"  textWidth="410"/>
+      
+    <ToggleGroup id="titleOptionsToggles"  x="1403" y="397" visible="false">
+      <Image id="dropDownBkg1" src="11. Title Choice Screen\title-select-bkg-white.png" />
+      <Toggle id  ="titleOptionsToggle1" defaultStateId="off" x="4" y="21">
+  	    <Image id="off" src="11. Title Choice Screen\title-select-normal.png">
+  	      <Text id="titleOptionsTextOff1" str="title option 1" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000"/>
+  	    </Image>
+  	    <Image id="on" src="11. Title Choice Screen\title-select-click.png">
+  	      <Text id="titleOptionsTextOn1" str="title option 1" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+  	    </Image>
+  	  </Toggle>
+  
+  	  <Toggle id="titleOptionsToggle2" defaultStateId="off"  x="4" y="84">
+  	    <Image id="off" src="11. Title Choice Screen\title-select-normal.png">
+  	      <Text id="titleOptionsTextOff2" str="title option 2" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000"/>
+  	    </Image>
+  	    <Image id="on" src="11. Title Choice Screen\title-select-click.png">
+  	      <Text id="titleOptionsTextOn2" str="title option 2" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+  	    </Image>
+  	  </Toggle>
+  	    
+  	  <Toggle id="titleOptionsToggle3"  defaultStateId="off" x="4" y="147">
+  	    <Image id="off" src="11. Title Choice Screen\title-select-normal.png">
+  	      <Text id="titleOptionsTextOff3" str="title option 3" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000"/>
+  	    </Image>
+  	    <Image id="on" src="11. Title Choice Screen\title-select-click.png">
+  	      <Text id="titleOptionsTextOn3" str="title option 3" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+  	    </Image>
+  	  </Toggle>
+  	    
+  	  <Toggle id="titleOptionsToggle4"  defaultStateId="off" x="4" y="210">
+  	    <Image id="off" src="11. Title Choice Screen\title-select-normal.png">
+  	       <Text id="titleOptionsTextOff4" str="title option 4" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000"/>
+  	    </Image>
+  	    <Image id="on" src="11. Title Choice Screen\title-select-click.png">
+  	       <Text id="titleOptionsTextOn4" str="title option 4" x="39" y="11"  pointSizeF="18" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+  	    </Image>
+  	  </Toggle>
+    </ToggleGroup>
+    
+
+    	  
+  </Container>
+  
+  <Container id="LandscapeComposer" visible="false">
+    <Image src="6. Compose Landscape Screen_No Drawers Open\Compose Landscape Screen_Background.png"/>
+    
+    <Container id="canvas">
+      <Container id="canvasBackground" y="50">
+        <Image id="canvasBackground1" x="77" src="6. Compose Landscape Screen_No Drawers Open\Compose Landscape Screen_Blank Painting 1.png"/>
+        <Image id="canvasBackground2" x="119.5" src="6. Compose Landscape Screen_No Drawers Open\Compose Landscape Screen_Blank Painting 2.png"/>
+        <Image id="canvasBackground3" x="408" src="6. Compose Landscape Screen_No Drawers Open\Compose Landscape Screen_Blank Painting 3.png"/>
+        <Image id="canvasBackground4" x="315.5" src="6. Compose Landscape Screen_No Drawers Open\Compose Landscape Screen_Blank Painting 4.png"/>
+      </Container>
+      
+      <Image id="selectPaintingItemInstruction" src="7. Compose Landscape Screen_Drawer Open\Drag Object Instructions.png" x="828" y="896" alpha="0"/>
+      <Text id="overlayCountText" str="(1/7)" x="1150" y="889" alignment="center" pointSizeF="13" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000" visible="false"/>
+      
+      <Container id="canvasOverlayRoot">
+        <Container id="canvasRoot">      
+        </Container>
+      </Container>
+      
+      <Container id="overlayUI" visible="false">
+        <Image id="overlayUpperLeft" src="8. Object Selected View\drag-corner-top-left.png" width="57" transformOriginX="10" transformOriginY="10" visible="false"/>
+        <Image id="overlayUpperRight" src="8. Object Selected View\drag-corner-top-right.png" width="57" transformOriginX="10" transformOriginY="10" visible="false"/>
+        <Image id="overlayLowerLeft" src="8. Object Selected View\drag-corner-bottom-left.png" width="57" transformOriginX="10" transformOriginY="10" visible="false"/>
+        <Image id="overlayLowerRight" src="8. Object Selected View\drag-corner-bottom-right.png" width="57" transformOriginX="10" transformOriginY="10" visible="false"/>
+        
+        <Image id="gestureIcon" src="8. Object Selected View\gesture-icon.png" />
+      </Container>
+      
+      <Container id="maxThresholdReach" alpha="0">
+        <Image  src="9. Maximum Threshold Reached Screen\too many objects warning message.png" x="510" y="460"/>
+      </Container>
+      
+      <Container id="symbolismOverlay" visible="false">
+        <Image id="overlayDeleteButton" src="8. Object Selected View\Delete-Object-Button_Black.png" x="10" y="269" visible="false"/>
+        <Image id="overlayConfirmButton" src="8. Object Selected View\confirm-btn.png" x="145" y="269" />
+        <Image id="symbolismMenu" src="8. Object Selected View\Symbolism Menu.png"/>
+        <Text id="symbolismName" str="Name" x="144" y="38" alignment="center" pointSizeF="16" ttfRef="fonts\CooperHewitt-Bold.otf" enabled="false" color="#000000"/>
+        <ToggleGroup id="symbolismToggle">
+          <Toggle id="symbolismToggle1" defaultStateId="on" x="45" y="105">
+      	    <Image id="off" src="8. Object Selected View\Gray Box.png">
+      	      <Text id="symbolismTextOff1" str="Meaning 1" x="98" y="5" alignment="center" pointSizeF="12" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000"/>
+      	    </Image>
+      	    <Image id="on" src="8. Object Selected View\Black Hi Lite Box.png" x="-14" y="-18">
+      	      <Text id="symbolismTextOn1" str="Meaning 1" x="112" y="23" alignment="center" pointSizeF="12" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+            </Image>
+      	  </Toggle>
+  
+      	  <Toggle id="symbolismToggle2" defaultStateId="off" x="45" y="157">
+      	    <Image id="off" src="8. Object Selected View\Gray Box.png">
+      	      <Text id="symbolismTextOff2" str="Meaning 2" x="98" y="5" alignment="center" pointSizeF="12" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000"/>
+      	    </Image>
+      	    <Image id="on" src="8. Object Selected View\Black Hi Lite Box.png" x="-14" y="-18">
+      	      <Text id="symbolismTextOn2" str="Meaning 2" x="112" y="23" alignment="center" pointSizeF="12" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+            </Image>
+      	  </Toggle>
+      	    
+      	  <Toggle id="symbolismToggle3"  defaultStateId="off" x="45" y="209">
+      	    <Image id="off" src="8. Object Selected View\Gray Box.png">
+      	      <Text id="symbolismTextOff3" str="Meaning 3" x="98" y="5" alignment="center" pointSizeF="12" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#000000"/>
+      	    </Image>
+      	    <Image id="on" src="8. Object Selected View\Black Hi Lite Box.png" x="-14" y="-18">
+      	      <Text id="symbolismTextOn3" str="Meaning 3" x="112" y="23" alignment="center" pointSizeF="12" ttfRef="fonts\CooperHewitt-Book.otf" enabled="false" color="#FFFFFF"/>
+            </Image>
+      	  </Toggle>
+    	  </ToggleGroup>
+      </Container>
+      
+      <Container id="minThreshold" alpha="0">
+        <Image  src="8. Object Selected View\Add 3 objects warning message.png" x="410" y="460"/>
+      </Container>
+      
+    </Container>
+    
+    <Container id="LandscapeDrawer" y="930" visible="true">
+    
+      
+      <Image id="selectPaintingItemBarBkg" src="7. Compose Landscape Screen_Drawer Open\gallery bar.png" x="0" visible="false"/>
+      
+      <Container id="paintItemsContainer">
+        <Container id="paintItems" x="850">
+          <Container id="paintItems1" x="0" y="15" alpha="0">
+            <Image id="PeopleAnimals/1.7.png" src="Landscape Objects\PeopleAnimals\1-7.png" x="0" y="0" height="120"/> <!-- w 214 -->
+            <Image id="PeopleAnimals/2.2.png" src="Landscape Objects\PeopleAnimals\2.2tray.png" x="215" y="0" height="120"/> <!-- w 134 -->
+            <Image id="PeopleAnimals/2.4.png" src="Landscape Objects\PeopleAnimals\2-4.png" x="359" y="0" height="120"/> <!-- w 105 -->
+            <Image id="PeopleAnimals/2.5.png" src="Landscape Objects\PeopleAnimals\2-5.png" x="524" y="30" height="80"/> <!-- w 299 -->
+            <Image id="PeopleAnimals/2.6.png" src="Landscape Objects\PeopleAnimals\2-6.png" x="783" y="0" height="120"/> <!-- w 120 -->
+            <Image id="PeopleAnimals/2.7.png" src="Landscape Objects\PeopleAnimals\2-7.png" x="913" y="0" height="120"/> <!-- w 444 -->
+            <Image id="PeopleAnimals/4.5.png" src="Landscape Objects\PeopleAnimals\4-5.png" x="1217" y="0" height="120"/> <!-- w 76 -->
+            <Image id="PeopleAnimals/4.6.png" src="Landscape Objects\PeopleAnimals\4-6.png" x="1353" y="0" height="120"/> <!-- w 58 -->
+            <Image id="PeopleAnimals/4.7.png" src="Landscape Objects\PeopleAnimals\4-7.png" x="1421" y="0" height="120"/> <!-- w 207 1728 -->
+          </Container>
+          
+          <Container id="paintItems2" x="0" y="15" alpha="0">
+            <Image id="VegetationLandforms/1.4.png" src="Landscape Objects\VegetationLandforms\1-4.png" x="0" y="0" height="120"/> <!-- w 72 -->
+            <Image id="VegetationLandforms/1.6.png" src="Landscape Objects\VegetationLandforms\1-6.png" x="82" y="0" height="120"/> <!-- w 670 -->
+            <Image id="VegetationLandforms/2.1.png" src="Landscape Objects\VegetationLandforms\2-1.png" x="762" y="0" height="120"/> <!-- w 58 -->
+            <Image id="VegetationLandforms/2.3.png" src="Landscape Objects\VegetationLandforms\2-3.png" x="830" y="0" height="120"/> <!-- w 62 -->
+            <Image id="VegetationLandforms/3.1.png" src="Landscape Objects\VegetationLandforms\3-1.png" x="902" y="0" height="120"/> <!-- w 80 -->
+            <Image id="VegetationLandforms/4.1.png" src="Landscape Objects\VegetationLandforms\4-1.png" x="992" y="0" height="120"/> <!-- w 86 -->
+            <Image id="VegetationLandforms/4.2.png" src="Landscape Objects\VegetationLandforms\4-2.png" x="1088" y="0" height="120"/> <!-- w 289 -->
+            <Image id="VegetationLandforms/4.4.png" src="Landscape Objects\VegetationLandforms\4-4.png" x="1387" y="0" height="120"/> <!-- w 73 1460 -->            
+          </Container>
+          
+          <Container id="paintItems3" x="0" y="15" alpha="0">
+            <Image id="Buildings/1.1.png" src="Landscape Objects\Buildings\1-1.png" x="0" y="0" height="120"/> <!-- w 95 -->
+            <Image id="Buildings/1.2.png" src="Landscape Objects\Buildings\1-2.png" x="105" y="0" height="120"/> <!-- w 522 -->
+            <Image id="Buildings/1.3.png" src="Landscape Objects\Buildings\1-3.png" x="637" y="0" height="120"/> <!-- w 486 -->
+            <Image id="Buildings/1.5.png" src="Landscape Objects\Buildings\1-5.png" x="1133" y="0" height="120"/> <!-- w 128 -->                        
+            <Image id="Buildings/3.2.png" src="Landscape Objects\Buildings\3-2.png" x="1271" y="0" height="120"/> <!-- w 45 -->
+            <Image id="Buildings/3.3.png" src="Landscape Objects\Buildings\3-3.png" x="1326" y="0" height="120"/> <!-- w 22 -->            
+            <Image id="Buildings/3.4.png" src="Landscape Objects\Buildings\3-4.png" x="1358" y="0" height="120"/> <!-- w 162 -->           
+            <Image id="Buildings/3.6.png" src="Landscape Objects\Buildings\3-6.png" x="1530" y="0" height="120"/> <!-- w 426 -->            
+            <Image id="Buildings/4.3.png" src="Landscape Objects\Buildings\4-3.png" x="1966" y="0" height="120"/> <!-- w 365 -->
+            <Image id="Buildings/4.8.png" src="Landscape Objects\Buildings\4-8.png" x="2341" y="0" height="120"/> <!-- w 245 2586 -->            
+          </Container>
+          
+          <Container id="paintItems4" x="0" y="15" alpha="0">
+            <Image id="Vehicles/1.8.png" src="Landscape Objects\Vehicles\1-8.png" x="0" y="0" height="120"/> <!-- w 550 -->
+            <Image id="Vehicles/3.5.png" src="Landscape Objects\Vehicles\3-5.png" x="560" y="0" height="120"/> <!-- w 158 -->   
+            <Image id="Vehicles/4.9.png" src="Landscape Objects\Vehicles\4-9.png" x="728" y="0" height="120"/> <!-- w 187 -->          
+            <Image id="Vehicles/4.10.png" src="Landscape Objects\Vehicles\4-10.png" x="925" y="0" height="120"/> <!-- w 118 1043 -->      
+          </Container>
+        </Container>
+      </Container>
+    
+      <Image id="mainMenuButton" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Main Menu Button.png" x="0" />
+      
+      <ToggleGroup id="paintingItemsToggle">
+        <Toggle id="paintingItemsToggle1" defaultStateId="off"  x="150">
+    	    <Image id="off" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 1.png"/>
+    	    <Image id="on" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 1_selected.png"/>
+    	  </Toggle>
+
+    	  <Toggle id="paintingItemsToggle2" defaultStateId="off"  x="300">
+    	    <Image id="off" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 2.png"/>
+    	    <Image id="on" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 2_selected.png"/>
+    	  </Toggle>
+    	    
+    	  <Toggle id="paintingItemsToggle3"  defaultStateId="off" x="450">
+    	    <Image id="off" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 3.png"/>
+    	    <Image id="on" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 3_selected.png"/>
+    	  </Toggle>
+    	    
+    	  <Toggle id="paintingItemsToggle4"  defaultStateId="off" x="600">
+    	    <Image id="off" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 4.png"/>
+    	    <Image id="on" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Icon 4_selected.png"/>
+    	  </Toggle>
+      </ToggleGroup>
+      
+      <Container>
+      
+        <Image id="moveLeftGradient" src="7. Compose Landscape Screen_Drawer Open\left gradient.png" x="850" y="0" enabled="false"/>
+        <Button id="movePaintingItemsLeftButton" x="750" y="0">
+          <Image id="initial" src="7. Compose Landscape Screen_Drawer Open\left arrow_box.png"/>
+          <Image id="down" src="7. Compose Landscape Screen_Drawer Open\left arrow_box.png"/>
+          <Image id="moveLeftInactive" src="7. Compose Landscape Screen_Drawer Open\left arrow and gradient_grayed out.png" visible="false"/>
+        </Button>
+        
+        <Image id="moveRightGradient" src="7. Compose Landscape Screen_Drawer Open\right gradient.png" x="1628" y="0" enabled="false"/>
+        <Button id="movePaintingItemsRightButton" x="1670" y="0">
+          <Image id="initial" src="7. Compose Landscape Screen_Drawer Open\right arrow_box.png"/>
+          <Image id="down" src="7. Compose Landscape Screen_Drawer Open\right arrow_box.png"/>
+          <Image id="moveLeftInactive" src="7. Compose Landscape Screen_Drawer Open\left arrow and gradient_grayed out.png" visible="false"/>
+        </Button>
+        
+        
+        <Image id="selectPaintingItemImage" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Gray Objects Area.png" x="750" visible="true"/>
+        
+      </Container>
+      
+      <Image id="finishButton" src="6. Compose Landscape Screen_No Drawers Open\Gallery Bar_Finish Button.png" x="1770"/>
+      <Image id="finishTransparentBlock" src="6. Compose Landscape Screen_No Drawers Open\transparent-157x502.png" width="150" height="150" x="1770" visible="false"/>
+      <Image id="drawerTransparentBlock" src="6. Compose Landscape Screen_No Drawers Open\lowerThirds_transparent.png" width="1920" height="150" x="0" visible="false"/>
+    </Container>
+    
+    <Container id="Instructions" visible="false">
+      <Container id="instructionsBackground">
+        <Image id="instructionsBackground1" src="5. Instruction Screen\Blank Painting 1 with Gray Overlay.png" x="77" y="50"/>
+        <Image id="instructionsBackground2" src="5. Instruction Screen\Blank Painting 2 with Gray Overlay.png" x="120" y="50"/>
+        <Image id="instructionsBackground3" src="5. Instruction Screen\Blank Painting 3 with Gray Overlay.png" x="408" y="50"/>
+        <Image id="instructionsBackground4" src="5. Instruction Screen\Blank Painting 4 with Gray Overlay.png" x="316" y="50"/>
+      </Container>
+      
+      <Image src="5. Instruction Screen\Title_line_Instructions.png" enabled="false" x="455" y="388"/>
+      <Image src="5. Instruction Screen\Gallery Bar_Grayed Out.png" x="0" y="930"/>
+      <Image src="5. Instruction Screen\Touch To Begin Button.png" enabled="false" x="847" y="708"/>
+      
+    </Container>
+    
+  </Container>
+  
+  <Container id="LandscapeSelector" visible="false">
+    <Container id="selectionDrawer1" x="0" y="0">
+      <Image src="3. landscape info screen\Landscape Info Screen_Slice 1 Open\Slice 1_Expanded Painting.png" enabled="false"/>
+      <Image id="selectionDrawer1Selection" src="2. Landscape Selection Screen\Slice 1_closed.png"/>
+      <Image id="selectionDrawer1Text" src="2. Landscape Selection Screen\Slice 1_Title.png" x="39" y="450"/>
+      <Image id="selectionDrawer1Description" src="3. landscape info screen\Landscape Info Screen_Slice 1 Open\Slice 1_Painting Description.png" x="39" y="394" alpha="0"/>
+      <Image id="selectionDrawerButton1" src="2. Landscape Selection Screen\create-landscape-btn.png" x="140" y="615" enabled="false"/>
+      <Image id="expandDrawerButton1" src="3. landscape info screen\Landscape Info Screen_Slice 2 Open\Slice 1_Expand button.png" x="43" y="515" alpha="0.0" enabled="false"/>
+      <Image id="createLandscapeDrawerButton1" src="3. landscape info screen\Create Landscape_Button 1.png" x="140" y="850" alpha="0.0" enabled="false"/>
+      <Image id="fullPreviewDrawerButton1" src="3. landscape info screen\Preview Full Painting_Button 1.png" x="175" y="950" alpha="0.0" enabled="false"/>
+      <Image id="closeDrawerButton1" src="3. landscape info screen\X_Button 1.png" x="256" y="950" alpha="0.0" enabled="false"/>
+    </Container>
+    
+    <Container id="selectionDrawer2" x="480" y="0">
+      <Image src="3. landscape info screen\Landscape Info Screen_Slice 2 Open\Slice 2_Expanded Painting.png" enabled="false"/>
+      <Image id="selectionDrawer2Selection" src="2. Landscape Selection Screen\Slice 2_closed.png"/>
+      <Image id="selectionDrawer2Text" src="2. Landscape Selection Screen\Slice 2_Title.png" x="25" y="450"/>
+      <Image id="selectionDrawer2Description" src="3. landscape info screen\Landscape Info Screen_Slice 2 Open\Slice 2_Painting Description.png" x="30" y="367" alpha="0"/>
+      <Image id="selectionDrawerButton2" src="2. Landscape Selection Screen\create-landscape-btn.png" x="140" y="615" enabled="false"/>
+      <Image id="expandDrawerButton2" src="3. landscape info screen\Landscape Info Screen_Slice 2 Open\Slice 1_Expand button.png" x="43" y="515" alpha="0.0" enabled="false"/>
+      <Image id="createLandscapeDrawerButton2" src="3. landscape info screen\Create Landscape_Button 1.png" x="140" y="850" alpha="0.0" enabled="false"/>
+      <Image id="fullPreviewDrawerButton2" src="3. landscape info screen\Preview Full Painting_Button 1.png" x="175" y="950" alpha="0.0" enabled="false"/>
+      <Image id="closeDrawerButton2" src="3. landscape info screen\X_Button 1.png" x="256" y="950" alpha="0.0" enabled="false"/>
+    </Container>
+    
+    <Container id="selectionDrawer3" x="960" y="0">
+      <Image src="3. landscape info screen\Landscape Info Screen_Slice 3 Open\Slice 3_Expanded Painting.png" y="6" enabled="false"/>
+      <Image id="selectionDrawer3Selection" src="2. Landscape Selection Screen\Slice 3_closed.png"/>
+      <Image id="selectionDrawer3Text" src="2. Landscape Selection Screen\Slice 3_Title.png" x="27" y="450"/>
+      <Image id="selectionDrawer3Description" src="3. landscape info screen\Landscape Info Screen_Slice 3 Open\Slice 3_Painting Description.png" x="30" y="394" alpha="0"/>
+      <Image id="selectionDrawerButton3" src="2. Landscape Selection Screen\create-landscape-btn.png" x="140" y="615" enabled="false"/>
+      <Image id="expandDrawerButton3" src="3. landscape info screen\Landscape Info Screen_Slice 2 Open\Slice 1_Expand button.png" x="43" y="515" alpha="0.0" enabled="false"/>
+      <Image id="createLandscapeDrawerButton3" src="3. landscape info screen\Create Landscape_Button 1.png" x="140" y="850" alpha="0.0" enabled="false"/>
+      <Image id="fullPreviewDrawerButton3" src="3. landscape info screen\Preview Full Painting_Button 1.png" x="175" y="950" alpha="0.0" enabled="false"/>
+      <Image id="closeDrawerButton3" src="3. landscape info screen\X_Button 1.png" x="256" y="950" alpha="0.0" enabled="false"/>
+    </Container>
+    
+    <Container id="selectionDrawer4" x="1440" y="0">
+      <Image src="3. landscape info screen\Landscape Info Screen_Slice 4 Open\Slice 4_Expanded Painting.png" enabled="false"/>
+      <Image id="selectionDrawer4Selection" src="2. Landscape Selection Screen\Slice 4_closed.png"/>
+      <Image id="selectionDrawer4Text" src="2. Landscape Selection Screen\Slice 4_Title.png" x="26" y="450"/>
+      <Image id="selectionDrawer4Description" src="3. landscape info screen\Landscape Info Screen_Slice 4 Open\Slice 4_Painting Description.png" x="30" y="394" alpha="0"/>
+      <Image id="selectionDrawerButton4" src="2. Landscape Selection Screen\create-landscape-btn.png" x="140" y="615" enabled="false"/>
+      <Image id="expandDrawerButton4" src="3. landscape info screen\Landscape Info Screen_Slice 2 Open\Slice 1_Expand button.png" x="43" y="515" alpha="0.0" enabled="false"/>
+      <Image id="createLandscapeDrawerButton4" src="3. landscape info screen\Create Landscape_Button 1.png" x="140" y="850" alpha="0.0" enabled="false"/>
+      <Image id="fullPreviewDrawerButton4" src="3. landscape info screen\Preview Full Painting_Button 1.png" x="175" y="950" alpha="0.0" enabled="false"/>
+      <Image id="closeDrawerButton4" src="3. landscape info screen\X_Button 1.png" x="256" y="950" alpha="0.0" enabled="false"/>
+    </Container>
+  </Container>
+    
+  <Container id="fullPreviewer" visible="false" alpha="0.0">
+    <Container id="fullPreview1">
+      <Image id="fullPreviewerClose1" src="4. Full Preview Screen\Full Painting 1.png"/>
+    </Container>
+    <Container id="fullPreview2">
+      <Image id="fullPreviewerClose2" src="4. Full Preview Screen\Full Painting 2.png"/>
+    </Container>
+    <Container id="fullPreview3">
+      <Image id="fullPreviewerClose3" src="4. Full Preview Screen\Full Painting 3.png"/>
+    </Container>
+    <Container id="fullPreview4">
+      <Image id="fullPreviewerClose4" src="4. Full Preview Screen\Full Painting 4.png"/>
+    </Container>
+  </Container>
+  
+  <Container id="Sharing" visible="false">
+    <Image src="13. Share Screen\Share Screen_Black Overlay.png" x="0" y="0"/>
+    <Image id="shareCloseButton" src="13. Share Screen\Share Screen_Close button.png" x="1774" y="61"/>
+    
+    <Toggle id="tumblrToggle"  defaultStateId="on" x="1214" y="444">
+      <Image id="off" src="13. Share Screen\Share Complete Screen_tumblr button.png"/>
+    	<Image id="on" src="13. Share Screen\Share Screen_Tumblr button.png"/>
+    </Toggle>
+    
+    <Image id="shareMainMenuButton" src="13. Share Screen\Share Screen_Main Menu button.png" x="627" y="860"/>
+    <Image id="shareSendButton" src="13. Share Screen\Share Screen_Send button.png" x="1027" y="860"/>
+    <Image id="shareSendButtonBlock" src="13. Share Screen\350x50.png" x="1027" y="860" visible="false"/>
+    <Image id="shareTextClear" src="14. Share Complete Screen\clear-btn.png" x="980" y="450"/>
+    <Image id="shareTextOverlay" src="14. Share Complete Screen\text-field.png" x="455" y="450">
+      <LineEdit id="shareText" str="" x="0" y="0" width="505" height="60" pointSizeF="14" ttfRef="fonts\CooperHewitt-Book.otf" color="#000000"/>
+    </Image>
+    <Include src="..\keyboard.cml"/>
+
+  </Container>
+  
+  <Container id="returnToMainMenu" visible="false" alpha="0.0">
+    <Graphic shape="rectangle" width="1920" height="1080" color="#FFFFFF" lineStroke="0" alpha="0.01"/>
+    <Image src="10. Return to Menu Pop Up Screen\Return to Menu Pop up_Message.png" x="510" y="385"/>
+    <Image id="returnToMainMenuYes" src="10. Return to Menu Pop Up Screen\Yes Button.png" x="805" y="550"/>
+    <Image id="returnToMainMenuNo" src="10. Return to Menu Pop Up Screen\No Button.png" x="986" y="550"/>
+  </Container>
+  
+  <Container id="shareSuccess" alpha="0">
+    <Graphic shape="rectangle" width="1920" height="1080" color="#000000" lineStroke="0" />
+    <Image src="14. Share Complete Screen\shared-txt.png" x="498" y="514.5"/>
+  </Container>
+  
+   <Container id="Attractor" visible="false">
+	<Container id="attractorTimeoutTime" x="105" visible="false" enabled="false"/>
+    <Image id="attractorAnimationImage" src="1. Attract Screen\Attract Screen_Title fill.png" x="366" y="-300"/>
+    <Image id="attractorScreen" src="1. Attract Screen\title-screen.png"/>
+    <Image id="attractorBegin" src="1. Attract Screen\Attract Screen_Touch to Begin Button.png" x="847" y="804" enabled="false"/>
+  </Container>
+  
+  <Animation id="attractorAnimation" parameter="x" startValue="270" endValue="-6500" duration="80000" easingCurve="linear"/>
+  
+  <AnimationGroup id="warnMessageAnimation">
+    <Animation parameter="opacity" startValue="0.0" endValue="1.0" duration="1000" easingCurve="linear"/>
+    <Pause duration="3000"/>
+    <Animation parameter="opacity" startValue="1.0" endValue="0.0" duration="1000" easingCurve="linear"/>
+  </AnimationGroup>
+
+  <AnimationGroup id="shareSuccessAnimation">
+    <Animation parameter="opacity" startValue="0.0" endValue="1.0" duration="250" easingCurve="linear"/>
+    <Pause duration="3000"/>
+    <Animation parameter="opacity" startValue="1.0" endValue="0.0" duration="250" easingCurve="linear"/>
+  </AnimationGroup>
+  
+</cml>
